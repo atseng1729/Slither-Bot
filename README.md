@@ -3,7 +3,7 @@
 ## Installing and making conda environment
 ```sh
 $ make folder with project and go into folder
-$ install conda: https://www.digitalocean.com/community/tutorials/how-to-install-anaconda-on-ubuntu-18-04-quickstart
+$ install [conda](https://www.digitalocean.com/community/tutorials/how-to-install-anaconda-on-ubuntu-18-04-quickstart)
 $ conda create --name slither python=3.5 pip (note: adding pip is necessary since you want a local version of pip here)
 $ conda activate slither (try python -V and pip -V and confirm that they\'re python 3.5)
 ```
@@ -22,10 +22,7 @@ $ cd universe
 $ pip install -e .
 ```
 
-## Follow instructions to install docker:
-```sh
-https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-on-ubuntu-16-04
-```
+## Follow instructions to install [docker](https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-on-ubuntu-16-04)
 
 ## If you get error (go_vncdriver was installed without OpenGL support) then do following:
 ```sh
