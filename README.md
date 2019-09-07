@@ -39,7 +39,7 @@ $ sudo (your path to conda python 3.5) build.py
 $ pip install -e .
 ```
 
-#To test if everything works, create new file
+## To test if everything works, create new file
 ```sh
 $ python test.py
 ```
