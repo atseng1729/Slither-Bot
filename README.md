@@ -1,9 +1,8 @@
 # Environment set up instructions
 
-## Installing and making conda environment
+## Follow instructions to install [conda](https://www.digitalocean.com/community/tutorials/how-to-install-anaconda-on-ubuntu-18-04-quickstart) then create environment
 ```sh
 $ make folder with project and go into folder
-$ install [conda](https://www.digitalocean.com/community/tutorials/how-to-install-anaconda-on-ubuntu-18-04-quickstart)
 $ conda create --name slither python=3.5 pip (note: adding pip is necessary since you want a local version of pip here)
 $ conda activate slither (try python -V and pip -V and confirm that they\'re python 3.5)
 ```
